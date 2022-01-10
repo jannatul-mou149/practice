@@ -18,4 +18,144 @@ caption{
     font-weight: 600;
     margin-bottom: 10px;
 }
+/* animation styling starts here */
+.title{
+    font-size: 60px;
+    white-space: nowrap;
+    position: relative;
+    color: transparent;
+}
+.title::before{
+    content: 'Programming hero';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color:teal;
+    animation: typing 3s linear infinite;
+}
+@keyframes typing {
+    0% {
+        content: 'F|';
+    }
 
+    4% {
+        content: 'Fa|';
+    }
+
+    8% {
+        content: 'Fav|';
+    }
+
+    12% {
+        content: 'Favo|';
+    }
+
+    16% {
+        content: 'Favou|';
+    }
+
+    20% {
+        content: 'Favour|';
+    }
+
+    24% {
+        content: 'Favouri|';
+    }
+
+    28% {
+        content: 'Favourit|';
+    }
+
+    32% {
+        content: 'Favourite|';
+    }
+
+    36% {
+        content: 'Favourite |';
+    }
+
+    40% {
+        content: 'Favourite v|';
+    }
+
+    44% {
+        content: 'Favourite ve|';
+    }
+
+    48% {
+        content: 'Favourite vid|';
+    }
+
+    52% {
+        content: 'Favourite vide|';
+    }
+
+    56% {
+        content: 'Favourite video|';
+    }
+
+    60%,
+    85% {
+        content: 'Favourite video|';
+    }
+
+    86% {
+        content: 'Favourite vide|';
+    }
+
+    87% {
+        content: 'Favourite vid|';
+    }
+
+    88% {
+        content: 'Favourite vi|';
+    }
+
+    89% {
+        content: 'Favourite v|';
+    }
+
+    90% {
+        content: 'Favourite |';
+    }
+
+    91% {
+        content: 'Favourite|';
+    }
+
+    92% {
+        content: 'Favourit|';
+    }
+
+    93% {
+        content: 'Favouri|';
+    }
+
+    94% {
+        content: 'Favour|';
+    }
+
+    95% {
+        content: 'Favou|';
+    }
+
+    96% {
+        content: 'Favo|';
+    }
+
+    97% {
+        content: 'Fav|';
+    }
+
+    98% {
+        content: 'Fa';
+    }
+
+    99% {
+        content: 'F|';
+    }
+
+    100% {
+        content: '|';
+    }
+}
