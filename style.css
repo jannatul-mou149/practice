@@ -1,0 +1,21 @@
+body{
+    font-size: 20px;
+    text-align: justify;
+    padding: 50px;
+}
+table, td , th{
+    border: 2px solid slategray;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px 20px;
+}
+th{
+    color: teal;
+}
+caption{
+    color: teal;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
